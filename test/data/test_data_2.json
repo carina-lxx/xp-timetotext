@@ -1,7 +1,7 @@
 [
     {"amount":"745.00","text":"seven hundred and fourty five dollars"},
-    {"amount":"645.00","text":"seven hundred and fourty five dollars"},
-    {"amount":"255.00","text":"seven hundred and fifty five dollars"},
+    {"amount":"645.00","text":"six hundred and fourty five dollars"},
+    {"amount":"255.00","text":"two hundred and fifty five dollars"},
     {"amount":"55.55","text":"fifty five dollars and fifty five cents"},
     {"amount":"7000.55","text":"seven thousand dollars and fifty five cents"}
 ]
