@@ -26,7 +26,7 @@ function convertMin(minute) {
     11: "eleven", 12:"twelve", 13:"thirteen", 14:"fourteen", 16:"sixteen", 17:"seventeen", 18:"eighteen", 19:"nineteen"}
     const twentyToFifty = {2: "twenty-", 3:"thirty-", 4:"fourty-", 5:"fifty-"}; 
     let convertedText = '';
-    // < 10 oh 
+
     if (minute < 10) {
         convertedText = 'oh ' + `${underTwenty[minute]}`;
     } else if (minute < 20) {
@@ -46,7 +46,6 @@ function isMul(minute) {
 }
 
 //input is multiple of five(5, 10, 15, 20, 30, 40, 45, 50, 55)
-// The same applies to 5, 10 and 20 past/to.
 // calMinutes() num past/[to] + hr[+1] + stage
 function calMinutes(minute){
     const minDict = {0:"half",20:"ten", 25:"five", 15:"quarter", 10:"twenty"}
@@ -113,10 +112,7 @@ function time2text (time) {
             res = minText + " to " + hourText + stage
             return res;
         }
-
-        return;
     } else {
-        //call convertMinutes(min)
         let hourText = convertHr(hr)
         let minText = convertMin(min)
         res = hourText + ' ' + minText + ' ' + stage
